@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#140473, #1560bd);
+    color: #ff08fc;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bff-img {
+    width: 150px;
+    border: 5px solid #40E0D0;
+    border-radius: 50%;
+    margin-bottom: 0;
+}
+
+#bday-age {
+    background-color: #40E0D0;
+    margin: 10px 0px 5px 0px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+#bday-date {
+    background-color: #40E0D0;
+    margin: 5px 0px 0px 0px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.gift-img {
+    background-image: url('/Images/blue-ribbon.jpg');
+    background-size: cover;
+    display: block;
+    height: 400px;
+    width: 400px;
+    margin: 0px auto;
+    border: 5px solid #40E0D0;
+}
+
+#gift-img1:hover {
+    background-image: url('/Images/baby.jpg')
+}
+
+
+#gift-img2:hover {
+    background-image: url('/Images/buttcrack.jpg')
+}
+
+
+#gift-img3:hover {
+    background-image: url('/Images/tiger.jpg')
+}
+
+#footer {
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+a {
+    color: #ff08fc;
+}
+
+.gift-title {
+    margin: 50px 0px 25px 0px;
+}
+
+#devy {
+    background-image: url("/images/wheresdevin.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 500px;
+    margin: 0px auto;
+    border-radius: 50%; 
+    border: 5px solid #40E0D0;
+}
